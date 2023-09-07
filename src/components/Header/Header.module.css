@@ -13,5 +13,6 @@
     bottom: 0;
     height: 1px;
     width: 100%;
-    background-color: var(--foreground);    
+    background: linear-gradient(to right, transparent, var(--foreground) 50%, transparent);
+
 }

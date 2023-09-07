@@ -26,6 +26,7 @@ const SearchBar = () => {
                 placeholder='Search'
                 type='text'
             />
+            
         </div>
     )
 }

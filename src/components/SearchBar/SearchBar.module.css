@@ -10,7 +10,7 @@
 .input{
     all: unset;
     height: 2rem;
-    border: solid 2px;
+    border: solid 1px;
     border-color: var(--foreground);
     border-radius: 0.5rem;
     transition: 0.5s;

@@ -23,4 +23,11 @@ export interface ThemeProviderProps {
   children: ReactNode
 }
 
+export type paletteColor = {
+  first_color:string
+  second_color:string    
+  third_color:string    
+  fourth_color:string
+  fifth_color:string   
+}
   

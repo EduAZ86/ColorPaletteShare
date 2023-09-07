@@ -1,14 +1,20 @@
-import Image from 'next/image'
+'use client'
+import React from 'react'
 import styles from './page.module.css'
 import Header from '@/components/Header/Header'
+import SlideBar from '@/components/SlideBar/SlideBar'
+import CardMapper from '@/components/CardMapper/CardMapper'
 
-export default function Home() {
+const Home:React.FC = () => {
   return (
-      <div className={styles.contanier}>
+      <div className={styles.container}>
         <Header/>
-        <span >Hola mundo Next.js 13</span>
-        <br/>
-        <p>Este es el primer proyecto desarrollado en next.js 13 y sea una aplicacion web </p>
+        <div className={styles.body}>
+          <SlideBar/>
+          <CardMapper/>
+        </div>
       </div>
      )
 }
+
+export default Home
