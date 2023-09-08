@@ -1,0 +1,49 @@
+.container{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    width: 9.5rem;
+    margin-top: 3rem;
+    height: calc(100% - 3rem);
+    padding-top: 15px;
+    background-color: var(--foreground);
+    padding-left: 1rem;
+
+}
+
+.buttonsContainer{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap:15px;
+ 
+}
+
+@media (max-width: 759px) {
+
+    .container{
+        position: fixed;
+        bottom: 0;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 5rem;
+        background-color: var(--foreground);
+        padding-left: 0;
+       
+     
+    }
+    
+    .buttonsContainer{
+        display: flex;
+        width: 100%;
+        height: 100%;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+}

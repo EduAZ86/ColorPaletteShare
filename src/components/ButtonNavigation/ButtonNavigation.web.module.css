@@ -1,0 +1,35 @@
+.container{
+    display: inline-block; 
+}
+
+.button{
+    all: unset;
+    display: flex;
+    height: 2rem;
+    width: 8rem;    
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 6px;
+    padding: 6px;
+    gap: 0.5rem;
+    cursor: pointer;
+    color: var(--font);   
+}
+
+.button:hover{  
+    background-color: var(--background);
+}
+
+.button:active{  
+    transform: scale(0.97);
+}
+
+.icon{
+    font-size: 1.2rem;
+
+}
+
+.title{
+    font-size:1rem ;
+}

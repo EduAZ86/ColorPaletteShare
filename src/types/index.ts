@@ -30,4 +30,13 @@ export type paletteColor = {
   fourth_color:string
   fifth_color:string   
 }
+
+export type optionsButtonType = {
+  name:string
+  ico:string
+  ref:string
+}
   
+export interface ButtonNavigationProps {
+  option: optionsButtonType;
+}

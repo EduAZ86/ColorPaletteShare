@@ -1,11 +1,4 @@
 .container{
-  margin: 0;
-  height: 100dvh;
-  width: 100vw;
-  background-color:var(--background);
-}
-.body{
-  height: calc( 100% - 3rem);
-  display: flex;
-  flex-direction: row;
+  margin: 0; 
+  flex: 1;
 }
