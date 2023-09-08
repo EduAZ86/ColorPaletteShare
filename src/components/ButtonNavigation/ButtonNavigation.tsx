@@ -1,14 +1,10 @@
 import React from 'react'
-import styles_mobile from './ButtonNavigation.mobile.module.css'
-import styles_web from './ButtonNavigation.web.module.css'
-import { useDevice } from '@/hooks/useDevice'
+import styles from './ButtonNavigation.module.css'
 import {HiFire} from 'react-icons/hi'
-import { optionsButtonType, ButtonNavigationProps } from '@/types'
-import { title } from 'process'
+import {  ButtonNavigationProps } from '@/types'
+
 
 const ButtonNavigation:React.FC<ButtonNavigationProps> = ({option}) => {
-    const device = useDevice()
-    const styles = ((device === 'mobile' || device === 'tablet')? styles_mobile : styles_web)
     
 const icon = <HiFire className={styles.icon}/>
     return(
@@ -19,7 +15,6 @@ const icon = <HiFire className={styles.icon}/>
                     {option.name}
                 </span>
             </button>
-
         </div>
     )
 }

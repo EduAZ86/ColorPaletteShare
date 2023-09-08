@@ -1,0 +1,77 @@
+.container{
+    display: inline-block; 
+}
+
+.button{
+    all: unset;
+    display: flex;
+    height: 2rem;
+    width: 8rem;    
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 6px;
+    padding: 6px;
+    gap: 0.5rem;
+    cursor: pointer;
+    color: var(--font);   
+}
+
+.button:hover{  
+    background-color: var(--background);
+}
+
+.button:active{  
+    transform: scale(0.97);
+}
+
+.icon{
+    font-size: 1.2rem;
+
+}
+
+.title{
+    font-size:1rem ;
+}
+
+
+
+
+
+
+@media (max-width: 759px) {
+    .container{
+        display: inline-block;     
+    }
+    
+    .button{
+        all: unset;
+        display: flex;
+        height: 3.5rem;
+        width: 3rem; ;  
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 4px;
+        gap: 0.5rem;
+        cursor: pointer; 
+        color: var(--font);
+        border-radius: 6px;
+    }
+    
+    
+    
+    .button:active{  
+        transform: scale(0.9);    
+    }
+    
+    .icon{
+        font-size: 1.5rem;   
+    }
+    .title{
+        font-size:0.6rem ;
+        
+    }
+    
+
+}
