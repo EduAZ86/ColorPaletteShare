@@ -1,6 +1,6 @@
 import React from "react";
 import styles from './CardMapper.module.css'
-import CardColor from "../CardColor/CardColor";
+import CardColor from "../CardColor/CardColorsPalette";
 import { paletts } from "@/constants/colorsTEST";
 import { paletteColor } from "@/types";
 

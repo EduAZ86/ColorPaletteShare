@@ -16,7 +16,6 @@ const RootLayout =({
 }: {
   children: React.ReactNode
 }) => {
-
   return (
     <html lang="en">
       <body className={roboto.className}>

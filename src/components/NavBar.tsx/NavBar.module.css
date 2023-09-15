@@ -8,7 +8,7 @@
     padding-top: 15px;
     background-color: var(--foreground);
     padding-left: 1rem;
-
+    z-index: 100;
 }
 
 .buttonsContainer{

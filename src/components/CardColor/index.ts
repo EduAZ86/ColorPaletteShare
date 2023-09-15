@@ -1,1 +1,1 @@
-export {default} from './CardColor'
+export {default} from './CardColorsPalette'
